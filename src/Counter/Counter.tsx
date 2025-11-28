@@ -1,5 +1,5 @@
-import { useCounter } from "../introduction/store.ts";
-const Example = () => {
+import { useCounter } from "./store.ts";
+const Counter = () => {
   const { count, increament, decrement, reset, toggleTheme, theme } =
     useCounter();
   return (
@@ -13,4 +13,4 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default Counter;
